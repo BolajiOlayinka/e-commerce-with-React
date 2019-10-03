@@ -9,6 +9,7 @@ import Default from "./components/Default";
 import Details from "./components/Details";
 import Cart from "./components/Cart";
 import Modal from "./components/Modal";
+import Footer from "./components/Footer";
 
 class App extends React.Component{
 
@@ -24,6 +25,7 @@ class App extends React.Component{
        
         </Switch>
         <Modal/>
+        <Footer/>
 {/*         
         <Details/>
         <Cart/>
